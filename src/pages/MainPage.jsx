@@ -17,8 +17,8 @@ const MainPage = () => {
     };
 
     return (
-    <div className="mainpage">
-      
+      <div className="container">
+ <div className="mainpage">
       <div className='container'>
       <h1>Это самая очаровательная девушка !!!</h1>
         <button className=' btn1' onClick={handlePreviousImage}>Нажмите , чтоб увидеть солнышко</button>
@@ -29,7 +29,8 @@ const MainPage = () => {
           </div>
         <button className='btn2' onClick={handleNextImage}>А сюда чтоб увидеть милашку</button>
       </div>
-    </div>
+    </div> 
+      </div>
   );
 };
 export default MainPage
